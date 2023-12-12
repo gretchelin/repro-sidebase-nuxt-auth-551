@@ -21,10 +21,10 @@ export default defineNuxtConfig({
         provider: {
             type: 'local',
             endpoints: {
-                signIn: {path: '/auth/mock/login', method: 'post'},
-                signOut: {path: '/auth/mock/logout', method: 'post'},
-                signUp: {path: '/auth/mock/register', method: 'post'},
-                getSession: {path: '/auth/mock/session', method: 'get'},
+                signIn: {path: '/auth/login', method: 'post'},
+                signOut: {path: '/auth/logout', method: 'post'},
+                signUp: {path: '/auth/register', method: 'post'},
+                getSession: {path: '/auth/session', method: 'get'},
             },
             pages: {
                 login: '/login',
